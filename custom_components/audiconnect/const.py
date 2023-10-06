@@ -12,6 +12,17 @@ CONF_REGION = "region"
 CONF_SERVICE_URL = "service_url"
 CONF_MUTABLE = "mutable"
 
+REGION_EUROPE: str = "Europe"
+REGION_CANADA: str = "Canada"
+REGION_USA: str = "USA"
+REGION_CHINA: str = "China"
+REGIONS = {
+    1: REGION_EUROPE,
+    2: REGION_CANADA,
+    3: REGION_USA,
+    4: REGION_CHINA,
+}
+
 SIGNAL_STATE_UPDATED = "{}.updated".format(DOMAIN)
 TRACKER_UPDATE = f"{DOMAIN}_tracker_update"
 
